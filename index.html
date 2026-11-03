@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src blob: data:; connect-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'">
+  <meta name="theme-color" content="#fffaf8">
+  <title>P&amp;P · 我们的小宇宙</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='10' fill='%23df728d'/%3E%3Ctext x='16' y='23' text-anchor='middle' fill='white' font-size='23'%3E%E2%99%A1%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.ad92b0b765152a7d.css">
+  <script type="module" src="app.fa2dfe2284cfe748.mjs" data-vault="vault.8fa524431db57d28.json"></script>
+</head>
+<body class="is-locked">
+  <main id="entrance" class="entrance">
+    <section class="gate-card" aria-labelledby="gate-title">
+      <div class="gate-heart" aria-hidden="true">♡</div>
+      <p class="gate-eyebrow">OUR LITTLE WORLD</p>
+      <h1 id="gate-title">P&amp;P</h1>
+      <p class="gate-note">门外是世界，门内是我们。<br>输入专属密钥，来翻翻今天的回忆。</p>
+      <form id="unlock-form" autocomplete="off">
+        <label for="access-key">我们的小暗号</label>
+        <div class="key-field"><input id="access-key" name="key" type="password" maxlength="200" required autocomplete="off" autofocus aria-describedby="gate-error"><button id="key-visibility" type="button" aria-label="显示密钥" aria-pressed="false">显示</button></div>
+        <p id="gate-error" class="gate-error" role="alert" hidden></p>
+        <button id="unlock-button" class="gate-submit" type="submit">打开我们的小宇宙 <span aria-hidden="true">↗</span></button>
+      </form>
+      <p class="gate-footer">只给懂暗号的你 ♡</p>
+      <noscript>请开启 JavaScript，才能用密钥打开回忆。</noscript>
+    </section>
+  </main>
+  <div id="private-site" hidden></div>
+  <dialog id="photo-viewer" aria-label="照片查看器">
+    <button type="button" class="viewer-close" data-viewer-close aria-label="关闭照片">×</button>
+    <button type="button" class="viewer-prev" data-viewer-step="-1" aria-label="上一张">‹</button>
+    <figure><img id="viewer-image" alt=""><figcaption id="viewer-caption" aria-live="polite"></figcaption></figure>
+    <button type="button" class="viewer-next" data-viewer-step="1" aria-label="下一张">›</button>
+  </dialog>
+</body>
+</html>
