@@ -1,0 +1,1 @@
+{"version":1,"kdf":{"name":"PBKDF2","hash":"SHA-256","iterations":600000,"salt":"i4HZk8iZEoGJrZHXErofpEkFS07yPv7e-oxrGy0fMr0"},"vault":{"id":"540e9858e136af69168a77d04e49ff55","iv":"lARUXFOLeN53Q651"}}
